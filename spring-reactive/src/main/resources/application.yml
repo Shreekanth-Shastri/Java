@@ -1,0 +1,6 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.sample.springreactive: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} | %-5level | %msg%n' 
