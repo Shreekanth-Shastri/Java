@@ -1,10 +1,10 @@
-package com.example.s3;
+package com.sample.awss3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FileStorageServiceApplicationTests {
+class AwsS3ApplicationTests {
 
 	@Test
 	void contextLoads() {

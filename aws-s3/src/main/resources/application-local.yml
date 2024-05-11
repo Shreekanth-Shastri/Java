@@ -1,0 +1,26 @@
+aws:
+  credentials:
+    access-key-id: accessKeyId
+    secret-access-key: secretAccessKey
+  region: us-east-2
+  bucket:
+    name: s3bucketname
+
+file:
+  multipart:
+    enabled: true
+    max-file-size: 5MB
+    max-request-size: 10MB
+    file-size-threshold: 2MB
+
+server:
+  port: 8080
+
+logging:
+  databus:
+    url: splunk-url
+  level:
+    org.springframework.web: DEBUG
+    com.sample.awss3: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} | %-5level | %msg%n' 
