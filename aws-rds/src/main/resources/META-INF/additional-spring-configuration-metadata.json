@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "aws.db-instance-identifier",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.db-instance-identifier'"
+  },
+  {
+    "name": "aws.db-name",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.db-name'"
+  },
+  {
+    "name": "aws.region",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.region'"
+  },
+  {
+    "name": "logging.databus.url",
+    "type": "java.lang.String",
+    "description": "A description for 'logging.databus.url'"
+  },
+  {
+    "name": "aws.aws-secrets-manager-name",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.aws-secrets-manager-name'"
+  }
+]}

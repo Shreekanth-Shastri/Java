@@ -1,19 +1,15 @@
-package com.javatechie.aws;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+package com.sample.awsrds.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
+@Data
 @Entity
 @Table(name = "Book")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Book {
     @Id
     @GeneratedValue
